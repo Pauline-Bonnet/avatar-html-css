@@ -1,0 +1,153 @@
+$background: #560707;
+$outer-border: #fddb5b;
+$inner-border: #ffb443;
+
+head, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $background;
+}
+
+.container, .inner-border,
+.corner, .inner-corner,
+.tricks-corner {
+    position: absolute;
+}
+
+.container {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 10px solid $outer-border;
+    z-index: 0;
+
+    //orange border inside the portrait
+    .inner-border {
+        width: 380px;
+        height: 430px;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #e20d0d;
+        background-image: linear-gradient(to bottom, #e20d0d 50%, #bd0910, #9a0810, #77080d, #560707);
+        border: 10px solid $inner-border;
+    }
+    
+    // class that gives round shape to yellow border
+    .corner {
+        width: 20px;
+        height: 20px;
+        background-color: $background;
+        z-index: 10;
+    }
+    .corner.top-left {
+        top: 0;
+        left: 0;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        border-radius: 0 0 60px 0;
+        border-width: 10px;
+        border-color: $outer-border;
+    }
+    .corner.top-right {
+        top: 0;
+        right: 0;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-radius: 0 0 0 60px;
+        border-width: 10px;
+        border-color: $outer-border;
+    }
+    .corner.bottom-right {
+        bottom: 0;
+        right: 0;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-radius: 60px 0 0 0;
+        border-width: 10px;
+        border-color: $outer-border;
+    }
+    .corner.bottom-left {
+        bottom: 0;
+        left: 0;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-radius: 0 60px 0 0;
+        border-width: 10px;
+        border-color: $outer-border;
+    }
+    
+    // class that give round shape to orange border
+    .inner-corner {
+        width: 30px;
+        height: 30px;
+    }
+    .inner-corner.top-left {
+        top: 0;
+        left: 0;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        border-radius: 0 0 60px 0;
+        border-width: 10px;
+        border-color: $inner-border;
+    }
+    .inner-corner.top-right {
+        top: 0;
+        right: 0;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-radius: 0 0 0 60px;
+        border-width: 10px;
+        border-color: $inner-border;
+    }
+    .inner-corner.bottom-right {
+        bottom: 0;
+        right: 0;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-radius: 60px 0 0 0;
+        border-width: 10px;
+        border-color: $inner-border;
+    }
+    .inner-corner.bottom-left {
+        bottom: 0;
+        left: 0;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-radius: 0 60px 0 0;
+        border-width: 10px;
+        border-color: $inner-border;
+    }
+
+    .tricks-corner {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $background;
+        z-index: 20;
+    }
+    .tricks-corner.top-left {
+        top: -29px;
+        left: -28px;
+    }    .tricks-corner.top-right {
+        top: -29px;
+        right: -28px;
+    }
+    .tricks-corner.bottom-left {
+        bottom: -29px;
+        left: -28px;
+    }    .tricks-corner.bottom-right {
+        bottom: -29px;
+        right: -28px;
+    }
+}
+
