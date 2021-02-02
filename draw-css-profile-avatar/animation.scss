@@ -1,0 +1,242 @@
+@keyframes moveHead {
+    0% {
+        top: 77px;
+        left: 114px;
+    }
+    25% {
+        top: 78px;
+        left: 115px;
+        transform: rotate(1deg);
+    }
+    50% {
+        top: 79px;
+        left: 116px;
+        transform: rotate(2deg);
+    }
+    100% {
+        top: 80px;
+        left: 117px;
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes closeRightEye {
+    0% {
+        transform: scale(1, 1) rotate(51deg);
+    }
+    25% {
+        transform: scale(1, 0.65) rotate(48deg);
+    }
+    50% {
+        transform: scale(1, 0.35) rotate(45deg); 
+    }
+    90% {
+        transform: scale(1, 0) rotate(40deg);
+    }
+    100% {
+        transform: scale(1, 0) rotate(40deg);
+    }
+}
+
+@keyframes closeRightEyeLiner {
+    0% {
+        transform: scale(1, 1) rotate(45deg);
+    }
+    25% {
+        transform: scale(1, 0.65) rotate(43deg);
+    }
+    50% {
+        transform: scale(1, 0.35) rotate(40deg); 
+    }
+    90% {
+        transform: scale(1, 0.2) rotate(48deg);
+    }
+    100% {
+        transform: scale(1, 0.2) rotate(48deg);
+    }
+}
+
+@keyframes lash1 {
+    0% {
+        top: 86px;
+    }
+    25% {
+        top: 86.25px;
+    }
+    50% {
+        top: 86.5px;
+    }
+    90% {
+        top: 87px;
+    }
+    100% {
+        top: 87px;
+    }
+}
+
+@keyframes lash2 {
+    0% {
+        top: 83px;
+        left: 144px;
+    }
+    20% {
+        top: 84px;
+        left: 144.5px;
+    }
+    45% {
+        top: 84.5px;
+        left: 145px;
+    }
+    60% {
+        top: 85px;
+        left: 145.5px;
+    }
+    85% {
+        top: 85.75px;
+        left: 145.5px;
+    }
+    100% {
+        top: 85.75px;
+        left: 145.5px;
+    }
+}
+
+@keyframes lash3 {
+    0% {
+        top: 81px;
+        left: 141px;
+    }
+    20% {
+        top: 83px;
+        left: 141.25px;
+    }
+    45% {
+        top: 84px;
+        left: 141.5px;
+    }
+    60% {
+        top: 85px;
+        left: 141.75px;
+    }
+    90% {
+        top: 86.5px;
+        left: 142px;
+    }
+    100% {
+        top: 86.5px;
+        left: 142px;
+    }
+}
+
+@keyframes earRing {
+    0% {
+        transform-origin: 0% 0%;
+        transform: rotate(0);
+    }
+    25% {
+        transform-origin: 0% 0%;
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform-origin: 0% 0%;
+        transform: rotate(-6deg);
+    }
+    100% {
+        transform-origin: 0% 0%;
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes smileRight {
+    0% {
+        transform: rotate(20deg) scaleX(-1);
+    }
+    100% {
+        transform: rotate(20deg) scaleX(-1.1);
+    }
+}
+@keyframes smileLeft {
+    0% {
+        transform: rotate(-22deg);
+    }
+    100% {
+        transform: rotate(-22deg) scaleX(1.1);
+    }
+}
+
+@keyframes hair1 {
+    0% {
+        top: 65px;
+        transform: rotate(-28deg);
+    }
+    100% {
+        top: 68px;
+        transform: rotate(-32deg);
+    }
+}
+
+@keyframes hair2 {
+    0% {
+        top: 78px;
+    }
+    100% {
+        top: 81px;
+    }
+}
+
+@keyframes hair4 {
+    0% {
+        top: 133px;
+        left: 57px;
+    }
+    100% {
+        top: 135px;
+        left: 60px;
+    }
+}
+
+@keyframes hair7 {
+    0% {
+        transform: rotate(38deg);
+    }
+    100% {
+        transform: rotate(42deg);
+    }
+}
+
+@keyframes hair12 {
+    0% {
+        transform: rotate(32deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes hair13 {
+    0% {
+        top: 187px;
+        left: 35px;
+        transform: rotate(-6deg) scaleX(-1);
+    }
+    100% {
+        top: 190px;
+        left: 40px;
+        transform: rotate(2deg) scaleX(-1);
+    }
+}
+
+@keyframes hair15 {
+    0% {
+        top: 86px;
+        transform: rotate(23deg);
+    }
+    100% {
+        top: 89px;
+        transform: rotate(25deg);
+    }
+}
+
+
+
+
