@@ -1,0 +1,330 @@
+@keyframes moveHead {
+  0% {
+    top: 77px;
+    left: 114px;
+  }
+  20% {
+    top: 77px;
+    left: 114px;
+  }
+  40% {
+    top: 79px;
+    left: 116px;
+    transform: rotate(2deg);
+  }
+  50% {
+    top: 80px;
+    left: 117px;
+    transform: rotate(3deg);
+  }
+  100% {
+    top: 80px;
+    left: 117px;
+    transform: rotate(3deg);
+  }
+}
+@keyframes closeRightEye {
+  0% {
+    transform: scale(1, 1) rotate(51deg);
+  }
+  20% {
+    transform: scale(1, 1) rotate(51deg);
+  }
+  40% {
+    transform: scale(1, 0.45) rotate(45deg);
+  }
+  50% {
+    transform: scale(1, 0) rotate(40deg);
+  }
+  100% {
+    transform: scale(1, 0) rotate(40deg);
+  }
+}
+@keyframes closeRightEyeLiner {
+  0% {
+    transform: scale(1, 1) rotate(45deg);
+  }
+  20% {
+    transform: scale(1, 1) rotate(45deg);
+  }
+  40% {
+    transform: scale(1, 0.45) rotate(48deg);
+  }
+  50% {
+    transform: scale(1, 0.2) rotate(48deg);
+  }
+  100% {
+    transform: scale(1, 0.2) rotate(48deg);
+  }
+}
+@keyframes lash1 {
+  0% {
+    top: 86px;
+  }
+  20% {
+    top: 86px;
+  }
+  40% {
+    top: 86.5px;
+  }
+  50% {
+    top: 87px;
+  }
+  100% {
+    top: 87px;
+  }
+}
+@keyframes lash2 {
+  0% {
+    top: 83px;
+    left: 144px;
+  }
+  20% {
+    top: 83px;
+    left: 144px;
+  }
+  40% {
+    top: 84.5px;
+    left: 145px;
+  }
+  50% {
+    top: 85.75px;
+    left: 145.5px;
+  }
+  100% {
+    top: 85.75px;
+    left: 145.5px;
+  }
+}
+@keyframes lash3 {
+  0% {
+    top: 81px;
+    left: 141px;
+  }
+  20% {
+    top: 81px;
+    left: 141px;
+  }
+  40% {
+    top: 84px;
+    left: 141.5px;
+  }
+  50% {
+    top: 86.5px;
+    left: 142px;
+  }
+  100% {
+    top: 86.5px;
+    left: 142px;
+  }
+}
+@keyframes earRing {
+  0% {
+    transform-origin: 0% 0%;
+    transform: rotate(0);
+  }
+  25% {
+    transform-origin: 0% 0%;
+    transform: rotate(0deg);
+  }
+  40% {
+    transform-origin: 0% 0%;
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform-origin: 0% 0%;
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform-origin: 0% 0%;
+    transform: rotate(-10deg);
+  }
+}
+@keyframes smileRight {
+  0% {
+    transform: rotate(20deg) scaleX(-1);
+  }
+  100% {
+    transform: rotate(20deg) scaleX(-1.1);
+  }
+}
+@keyframes smileLeft {
+  0% {
+    transform: rotate(-22deg);
+  }
+  100% {
+    transform: rotate(-22deg) scaleX(1.1);
+  }
+}
+@keyframes hair1 {
+  0% {
+    top: 65px;
+    transform: rotate(-28deg);
+  }
+  20% {
+    top: 65px;
+    transform: rotate(-28deg);
+  }
+  40% {
+    top: 66px;
+    transform: rotate(-30deg);
+  }
+  50% {
+    top: 68px;
+    transform: rotate(-32deg);
+  }
+  100% {
+    top: 68px;
+    transform: rotate(-32deg);
+  }
+}
+@keyframes hair2 {
+  0% {
+    top: 78px;
+  }
+  20% {
+    top: 78px;
+  }
+  40% {
+    top: 80px;
+  }
+  50% {
+    top: 81px;
+  }
+  100% {
+    top: 81px;
+  }
+}
+@keyframes hair4 {
+  0% {
+    top: 133px;
+    left: 57px;
+  }
+  20% {
+    top: 133px;
+    left: 57px;
+  }
+  40% {
+    top: 134px;
+    left: 59px;
+  }
+  50% {
+    top: 135px;
+    left: 60px;
+  }
+  100% {
+    top: 135px;
+    left: 60px;
+  }
+}
+@keyframes hair5 {
+  0% {
+    top: 181px;
+    left: 59px;
+  }
+  10% {
+    top: 181px;
+    left: 70px;
+  }
+  100% {
+    top: 181px;
+    left: 70px;
+  }
+}
+@keyframes hair7 {
+  0% {
+    transform: rotate(38deg);
+  }
+  20% {
+    transform: rotate(38deg);
+  }
+  0% {
+    transform: rotate(40deg);
+  }
+  50% {
+    transform: rotate(42deg);
+  }
+  100% {
+    transform: rotate(42deg);
+  }
+}
+@keyframes hair12 {
+  0% {
+    transform: rotate(32deg);
+  }
+  20% {
+    transform: rotate(32deg);
+  }
+  0% {
+    transform: rotate(31deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes hair13 {
+  0% {
+    top: 187px;
+    left: 35px;
+    transform: rotate(-6deg) scaleX(-1);
+  }
+  20% {
+    top: 187px;
+    left: 35px;
+    transform: rotate(-6deg) scaleX(-1);
+  }
+  50% {
+    top: 190px;
+    left: 40px;
+    transform: rotate(0deg) scaleX(-1);
+  }
+  90% {
+    top: 190px;
+    left: 40px;
+    transform: rotate(0deg) scaleX(-1);
+  }
+  100% {
+    top: 190px;
+    left: 40px;
+    transform: rotate(0deg) scaleX(-1);
+  }
+}
+@keyframes hair15 {
+  0% {
+    top: 86px;
+    transform: rotate(23deg);
+  }
+  20% {
+    top: 86px;
+    transform: rotate(23deg);
+  }
+  40% {
+    top: 88px;
+    transform: rotate(24deg);
+  }
+  50% {
+    top: 89px;
+    transform: rotate(25deg);
+  }
+  100% {
+    top: 89px;
+    transform: rotate(25deg);
+  }
+}
+@keyframes iris {
+  0% {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  100% {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */
